@@ -1,8 +1,9 @@
-exports.frameRate = 16;
-exports.pianoKeyThreshold = 40;
-exports.pianoKeyTrim = 4;
-exports.minPianoKey = 9;
+exports.frameRate = 32;
+exports.pianoKeyThreshold = 100;
+exports.pianoKeyTrim = 2;
+exports.minPianoKey = 5;
 exports.startingRow = 4;
-exports.startingNote = 'a1';
-exports.keyPressedThreshold = 70;
+exports.startingNote = 'a0';
+exports.keyPressedThreshold = 100;
+exports.pianoYOffset = 600;
 exports.midiName = 'test.mid';
